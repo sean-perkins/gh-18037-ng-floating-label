@@ -1,11 +1,10 @@
 <ion-app>
   <ion-content>
-    <form (submit)="onSubmit($event, settingsForm)" [formGroup]="userForm" class="zns-form">
+    <form [formGroup]="userForm" class="zns-form">
       <ion-list>
         <ion-item>
           <ion-label position="floating">nope</ion-label>
-          <ion-input (change)="positiveNumberOnly('age')" formControlName="age" type="number">
-          </ion-input>
+          <ion-input formControlName="age" type="number"></ion-input>
         </ion-item>
       </ion-list>
     </form>

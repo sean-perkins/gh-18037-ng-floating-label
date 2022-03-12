@@ -1,0 +1,7 @@
+{
+  "name": "ng-invalid-floating-label",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
